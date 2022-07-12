@@ -1,0 +1,25 @@
+@media screen and (max-width:1200px) {
+    .image-vector img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .black-lorem p {
+        overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .para-head p {
+        color: var(--white);
+        font-size: 14px;
+    }
+}
+
+
+
+
